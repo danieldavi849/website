@@ -1,0 +1,144 @@
+html,body{
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.fa-style {
+  opacity: 50%;
+}
+.container{ 
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+#grid.container{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: middle;
+  
+}
+
+.slot-grid{
+ 
+  min-width: 100%;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  
+  grid-template-columns: repeat(auto-fill,170px);
+  
+}
+
+.slot-container{
+  width:fit-content;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.img-container {
+  min-width: 150px;
+  min-height: 150px;
+ 
+  background-image: "";
+  background-size:cover;
+  background-position: center;
+}
+
+.slot-paragraph{
+  font-size: 100%;
+  margin-left: 1ch;
+  margin-right: 1ch;
+  margin-top: 0;
+ }
+#header.slot-paragraph{
+ margin-top: 0.5ch;
+ margin-bottom: 0.5ch;
+
+}
+.hide{
+  display: none;
+}
+
+#div1 .img-container{
+  background-image:url('file:///C:/Users/mooki/OneDrive/שולחן העבודה/project code/image.jpg');
+
+}
+#div2 .img-container{
+  background-image:url('https://images.immediate.co.uk/production/volatile/sites/30/2020/08/processed-food700-350-e6d0f0f.jpg');
+}
+#div3 .img-container{
+  background-image:url('https://media.self.com/photos/622912847b959736301bfb91/2:1/w_1280,c_limit/GettyImages-1301412050.jpg');
+}
+#div4 .img-container{
+  background-image:url('https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=768,574');
+
+}
+#div5 .img-container{
+  background-image:url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/copycat-hamburger-helper1-1659463591.jpg?crop=0.668xw:1.00xh;0.176xw,0&resize=640:*');
+}
+#div6 .img-container{
+  background-image:url('https://static.independent.co.uk/2022/10/06/09/pork-squid-burger.jpg?quality=50&width=640&auto=webp');
+}
+
+
+.btn{
+  float: right;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 60px;
+  color: black;
+  height: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+.btn:hover{
+ background-color: #f4f4f4;
+}
+#home.btn{
+  background-color: #000000;
+  color: white;
+ }
+.topnav{
+  display: flex;
+
+  width: auto;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  background-color:lightsalmon;
+
+
+}
+.search-bar{
+  float: left;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding: 0 15px;
+  background-color: #ffffff80;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 60px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  
+}
+.search-bar input[type=search]{
+  background: transparent;
+  flex:1;
+  border: 0;
+  outline: none;
+  padding: 10px;
+
+}
+
